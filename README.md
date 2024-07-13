@@ -1,4 +1,4 @@
-# tokiponacharachterencoding
+# tokiponacharacterencoding
 Because 4 bytes per one symbol is ridiculous.
 
 # How to use
