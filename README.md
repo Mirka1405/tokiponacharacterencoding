@@ -19,7 +19,7 @@ Command line syntax:
 # How it works
 This section is unnecessary to read and I advise against it.
 
-This script is compatible with [Under-ConScript Unicode Registry](https://www.kreativekorp.com/ucsur/charts/sitelen.html). It is used by several fonts to display the characters.
+This script uses codepoints defined in [Under-ConScript Unicode Registry](https://www.kreativekorp.com/ucsur/charts/sitelen.html), which is used by several fonts to display the characters.
 
 The algorithm iterates over the input file and saves bytes to a buffer. If it finds the defined block in the last bytes of the buffer, it first saves the length of non-defined string and adds 0xaf to it. That way, if you have string "hello", it will become "\xb4hello". If the length exceeds 80 (aka the sum is 0xff), the string is split in 80 character long blocks. Then 128 will be subtracted from the last byte of the block and two least significant bits of second-to-last byte will be added as the most significant bits.
 
