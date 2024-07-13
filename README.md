@@ -12,9 +12,9 @@ If you chose the latter, you will be prompted with the data needed.
 
 Command line syntax:
 
-`python encode.py \[input .txt file] \[output .whatever_extension_you_want file]`
+`python encode.py [input .txt file] [output .whatever_extension_you_want file]`
 
-`python decode.py \[input .whatever file] \[output .txt file]`
+`python decode.py [input .whatever file] [output .txt file]`
 
 # How it works
 This section is unnecessary to read and I advise against it.
