@@ -1,7 +1,7 @@
 # tokiponacharacterencoding
 Because 4 bytes per one symbol is ridiculous.
 
-# How to use
+# How to use (Python)
 Well, first of all, install Python if you haven't. Then download the scripts. 
 
 Now you have two options: 
@@ -15,6 +15,11 @@ Command line syntax:
 `python encode.py [input .txt file] [output .whatever_extension_you_want file]`
 
 `python decode.py [input .whatever file] [output .txt file]`
+
+# How to use (compiled)
+This works for Windows, but if anybody wants for linux you can just compile .cpp yourself.
+
+Unlike Python, this only works in command line. Command line syntax is basically the same, just without "python" and ".exe" instead of ".py"
 
 # How it works
 This section is unnecessary to read and I advise against it.
