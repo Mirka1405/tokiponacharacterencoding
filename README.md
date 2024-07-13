@@ -25,4 +25,4 @@ The algorithm iterates over the input file and saves bytes to a buffer. If it fi
 
 So "hello\xf3\xb1\xa4\x80 world!" will become "\xb4hello\x00\xb6 world!" because 0xf3b1a580 is converted into \x00, and the lengths of other strings are added.
 
-Of course there's not much compression here since we use only so little special characters, but the compression can theoretically approach 4x. In a normal test on an average-sized file written fully in Toki Pona with the spaces and newline characters, the compression was ~2.4x. 
+Of course there's not much compression here since we use only so little special characters, but the compression can theoretically approach 4x. In a normal test on an small file written fully in Toki Pona with the spaces and newline characters, the compression was ~2.4x. 
